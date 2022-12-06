@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: sans-serif;
+    width: 60%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem auto;
+    gap: .5rem;
+    text-align: center;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 2px solid #030303;
+    text-align: center;
+}
